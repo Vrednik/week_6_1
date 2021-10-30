@@ -13,6 +13,7 @@ text-align: center;
 }
 .main{
     display: grid;
+    grid-template-rows: 1.5fr 1fr;
     background-color: #f5e5d3b5;
 }
 .sidebar{
@@ -33,7 +34,7 @@ text-align: center;
 display: grid;
 grid-template-rows: 1fr 1fr;
 align-items: end;
-grid-column-gap: 20px;
+grid-gap: 20px;
 padding: 0 20px 20px 20px;
 }
 .section_main{
